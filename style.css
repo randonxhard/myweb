@@ -1,0 +1,111 @@
+body {
+    transition: 0.5s;
+    background-color: #333;
+    background-image: url(/img/bg.png);
+    background-clip: border-box;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #222;
+    border: none;
+}
+
+.navbar a {
+    transition: 0.5s;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #8f8d8d;
+}
+
+.navbar-logo {
+    background-image: url(/img/bg.png);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: #222 solid 1px;
+    border-radius: 50%;
+}
+
+.navbar-logo:hover {
+    background-color: #fff;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-items ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-items ul li {
+    margin: 0 10px;
+}
+
+.navbar-items ul li a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    transition: 0.5s;
+    background-color: #222;
+    color: #fff;
+    padding: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    transition: 0.5s;
+    background-color: #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-header {
+    transition: 0.5s;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    border-bottom: #fff solid 1px;
+}
+
+.card-header:hover {
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+.card-body {
+    transition: 0.5s;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+}
+
+.card-body:hover {
+    transition: 0.5s;
+    font-size: 24px;
+}
