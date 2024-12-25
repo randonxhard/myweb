@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rAndonxDev</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <meta name="description" content="Info de rAndonx.." property="og:description" />
+    <meta content="rAndonxDev" property="og:site_name" />
+    <meta content="alejandro.png" property="og:image" />
+    <link rel="shortcut icon" href="alejandro.png" type="image/x-icon" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: 'var(--color-primary)',
+                        secondary: 'var(--color-secondary)',
+                        accent: 'var(--color-accent)',
+                        background: 'var(--color-background)',
+                    }
+                }
+            }
+        }
+        JavaScriptObfuscator.obfuscate({
+            compact: true,
+            controlFlowFlattening: true,
+            controlFlowFlatteningThreshold: 0.75,
+            deadCodeInjection: true,
+            deadCodeInjectionThreshold: 0.4,
+            debugProtection: true,
+            debugProtectionInterval: true,
+            disableConsoleOutput: true,
+            identifierNamesGenerator: 'hexadecimal',
+            log: false,
+            renameGlobals: false,
+            rotateStringArray: true,
+            selfDefending: true,
+            stringArray: true,
+            stringArrayEncoding: ['base64'],
+            stringArrayThreshold: 0.75,
+            unicodeEscapeSequence: false
+        });
+    </script>    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+    <div id="particles-js" class="fixed inset-0 z-0"></div>
+    <div class="fixed top-4 right-4 flex gap-2 z-10">
+        <button id="defaultTheme" class="px-4 py-2 rounded-full text-white bg-purple-600 hover:bg-purple-700 transition-colors">Por Defecto</button>
+        <button id="halloweenTheme" class="px-4 py-2 rounded-full text-white bg-orange-600 hover:bg-orange-700 transition-colors">Halloween</button>
+        <button id="christmasTheme" class="px-4 py-2 rounded-full text-white bg-red-600 hover:bg-green-700 transition-colors">Navideño</button>
+    </div>
+    <div class="relative z-10 w-full max-w-lg bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-8 border border-white border-opacity-20">
+        <div class="flex justify-center mb-6">
+            <div class="w-32 h-32 rounded-full p-1 bg-gradient-to-r from-primary to-secondary">
+                <img src="alejandro.png" alt="Profile" class="w-full h-full rounded-full object-cover">
+            </div>
+        </div>
+        <h1 class="text-center text-white text-2xl font-bold mb-4 flex items-center justify-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Alejandro
+        </h1>
+        <div class="flex flex-wrap justify-center gap-2 mb-6">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r from-primary to-secondary text-white">
+                💻 Minecraft Developer
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r from-primary to-secondary text-white">
+                ☕ Java Student
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r from-primary to-secondary text-white">
+                🌐 DNS Experiencie
+            </span>
+        </div>
+        <p class="text-center text-white text-opacity-80 mb-6">
+            Hola, soy Alejandro, un joven desarrollador de servidores Minecraft y estudiante de Java. Tengo experiencia sobre configuracion de DNS. Me encanta programar y aprender cosas nuevas. Actualmente estoy trabajando en mi pequeño proyecto basado en java y en mi portafolio. ¡Gracias por visitar mi sitio web, no dudes en contactarme!
+        </p>
+        <div class="text-center mb-6">
+            <h2 class="text-accent font-semibold mb-2">Contactame via discord!</h2>
+            <p class="text-white text-opacity-80">alexhardv | randonyt#3627</p>
+        </div>
+        <div class="flex justify-center gap-4">
+            <a href="#" class="text-accent hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+            </a>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
